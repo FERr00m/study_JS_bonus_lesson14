@@ -1,0 +1,38 @@
+button {
+    padding: 15px;
+    font-size: large;
+    color: rgb(12, 12, 71);
+    background-color: rgb(73, 204, 73);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+#registerUser {
+    background-color: rgb(31, 31, 230);
+    color: #fff;
+}
+
+.user-remove {
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+    border-radius: 30%;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.user-remove::before {
+    content: 'x';
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    margin-bottom: 15px;
+}
